@@ -1,0 +1,63 @@
+Assets\DarkGray.png
+Assets\images\Chinese\Dessert\Banana-Fritters-05.99.jpg
+Assets\images\General\coke-1.00-20.00v.jpg
+Assets\images\General\lemon juice-2.00-15V.jpg
+Assets\images\General\sprite-1.00-20V.jpg
+Assets\images\Indian\Biryani\chicken biryani-8.99.jpg
+Assets\images\Indian\Biryani\fish biryani 8.99.JPG
+Assets\images\Indian\Biryani\lamb-biryani-10.99.jpg
+Assets\images\Indian\Biryani\mixed biryani-8.99.jpg
+Assets\images\Indian\Biryani\prawn biryani-9.99.JPG
+Assets\images\Indian\Biryani\vegetable-biryani-7.99.jpg
+Assets\images\Indian\Dessert\Banana-Fritters-05.99.jpg
+Assets\images\Italian\Pasta\pasta-avacado-9.99.jpg
+Assets\images\Italian\Pasta\pasta-bake-15.99.jpg
+Assets\images\Italian\Pasta\pasta-noodles-10.49.jpg
+Assets\images\Italian\Pasta\pasta-salad-4.99.jpg
+Assets\images\Italian\Pasta\tomato-pasta-6.99.jpg
+Assets\images\Italian\Pizza\american-9.99.jpg
+Assets\images\Italian\Pizza\hawaii-14.99.jpg
+Assets\images\Italian\Pizza\hot&spicy-13.99.jpg
+Assets\images\Italian\Pizza\simple-pizza-8.99.jpg
+Assets\images\Italian\Pizza\special-pizza-12.99.jpg
+Assets\images\Japanese\Dessert\Japanese Dessert-05.99.jpg
+Assets\images\Kerala\Curries\Fish curry-6.99.jpg
+Assets\images\Spanish\Items\spanish item-05.99.jpg
+Assets\LightGray.png
+Assets\Logo.scale-100.png
+Assets\MediumGray.png
+Assets\SmallLogo.scale-100.png
+Assets\SplashScreen.scale-100.png
+Assets\StoreLogo.scale-100.png
+App.xbf
+Style\Style.xbf
+Telerik.UI.Xaml.Chart\Themes\Generic.xbf
+Telerik.UI.Xaml.Chart\Themes\ThemeResourcesDark.xbf
+Telerik.UI.Xaml.Chart\Themes\ThemeResourcesLight.xbf
+Telerik.UI.Xaml.DataVisualization\Themes\Generic.xbf
+Telerik.UI.Xaml.DataVisualization\Themes\Resources.xbf
+Telerik.UI.Xaml.DataVisualization\Themes\ThemeResourcesDark.xbf
+Telerik.UI.Xaml.DataVisualization\Themes\ThemeResourcesLight.xbf
+Telerik.UI.Xaml.Grid\Themes\Generic.xbf
+Telerik.UI.Xaml.Grid\Themes\Resources.xbf
+Telerik.UI.Xaml.Grid\Themes\ThemeResourcesDark.xbf
+Telerik.UI.Xaml.Grid\Themes\ThemeResourcesLight.xbf
+Telerik.UI.Xaml.Input\Themes\Calendar.xbf
+Telerik.UI.Xaml.Input\Themes\CommonResources.xbf
+Telerik.UI.Xaml.Input\Themes\Generic.xbf
+Telerik.UI.Xaml.Input\Themes\Resources.xbf
+Telerik.UI.Xaml.Input\Themes\ThemeResourcesDark.xbf
+Telerik.UI.Xaml.Input\Themes\ThemeResourcesLight.xbf
+Telerik.UI.Xaml.Primitives\Themes\Generic.xbf
+Telerik.UI.Xaml.Primitives\Themes\HubTilePalette.xbf
+Telerik.UI.Xaml.Primitives\Themes\Listbox.xbf
+Telerik.UI.Xaml.Primitives\Themes\Resources.xbf
+Telerik.UI.Xaml.Primitives\Themes\ThemeColorsDark.xbf
+Telerik.UI.Xaml.Primitives\Themes\ThemeColorsLight.xbf
+Telerik.UI.Xaml.Primitives\Themes\ThemeResourcesDark.xbf
+Telerik.UI.Xaml.Primitives\Themes\ThemeResourcesLight.xbf
+TouchPointWindows.xr.xml
+Views\DiscountPopupView.xbf
+Views\LoginView.xbf
+Views\MenuView.xbf
+Views\OrderView.xbf

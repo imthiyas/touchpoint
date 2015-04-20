@@ -1,0 +1,22 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="c:\projects\touchpointwindows\touchpointwindows\obj\debug\intermediatexaml\touchpointwindows.exe" HashGuid="c85770dd-0a4f-7212-3319-07848ad144f3" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windows\v8.1\extensionsdks\behaviorsxamlsdkmanaged\12.0\references\commonconfiguration\neutral\microsoft.xaml.interactions.dll" HashGuid="95a94f94-3917-d473-4f7c-18c4bd437046" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windows\v8.1\extensionsdks\behaviorsxamlsdkmanaged\12.0\references\commonconfiguration\neutral\microsoft.xaml.interactivity.dll" HashGuid="d25f59e6-dd81-900a-0dfc-55b39f6898ef" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windows\v8.1\extensionsdks\microsoft.vclibs\12.0\references\commonconfiguration\neutral\platform.winmd" HashGuid="58b6b6d1-928e-9908-9804-eb460e5e101b" />
+    <ReferenceAssembly PathName="c:\program files (x86)\telerik\ui for windows universal q3 2014\sdks\windows 8.1\telerik ui for windows universal\references\commonconfiguration\neutral\telerik.core.dll" HashGuid="baf4fdea-db59-2cf1-5748-e35d701d962a" />
+    <ReferenceAssembly PathName="c:\program files (x86)\telerik\ui for windows universal q3 2014\sdks\windows 8.1\telerik datastorage for windows universal\references\commonconfiguration\x64\telerik.storage.extensions.dll" HashGuid="151db112-e024-58cf-533f-935814df863c" />
+    <ReferenceAssembly PathName="c:\program files (x86)\telerik\ui for windows universal q3 2014\sdks\windows 8.1\telerik ui for windows universal\references\commonconfiguration\neutral\telerik.ui.xaml.chart.dll" HashGuid="0c67bb5c-3bb5-42ff-5969-92e95640d449" />
+    <ReferenceAssembly PathName="c:\program files (x86)\telerik\ui for windows universal q3 2014\sdks\windows 8.1\telerik grid.datastorageprovider for windows universal\references\commonconfiguration\x64\telerik.ui.xaml.controls.dataprovider.dll" HashGuid="0320856e-5246-8c4b-5dcc-b4d1bf4d7f9b" />
+    <ReferenceAssembly PathName="c:\program files (x86)\telerik\ui for windows universal q3 2014\sdks\windows 8.1\telerik ui for windows universal\references\commonconfiguration\neutral\telerik.ui.xaml.datavisualization.dll" HashGuid="439b1703-b57c-a8d9-9b52-5a15c62e7455" />
+    <ReferenceAssembly PathName="c:\program files (x86)\telerik\ui for windows universal q3 2014\sdks\windows 8.1\telerik ui for windows universal\references\commonconfiguration\neutral\telerik.ui.xaml.grid.dll" HashGuid="dcd45c2f-aa10-17b4-59ed-e40879de7d82" />
+    <ReferenceAssembly PathName="c:\program files (x86)\telerik\ui for windows universal q3 2014\sdks\windows 8.1\telerik ui for windows universal\references\commonconfiguration\neutral\telerik.ui.xaml.input.dll" HashGuid="1fb2809a-5148-4869-599c-9e624ed58417" />
+    <ReferenceAssembly PathName="c:\program files (x86)\telerik\ui for windows universal q3 2014\sdks\windows 8.1\telerik ui for windows universal\references\commonconfiguration\neutral\telerik.ui.xaml.primitives.dll" HashGuid="b7ef516e-c300-d059-eea6-c8c8cdace5f7" />
+    <ReferenceAssembly PathName="c:\projects\touchpointwindows\packages\mvvmlightlibs.5.0.2.0\lib\netcore451\galasoft.mvvmlight.dll" HashGuid="da07be64-1093-25cd-c992-377d44b6dd02" />
+    <ReferenceAssembly PathName="c:\projects\touchpointwindows\packages\mvvmlightlibs.5.0.2.0\lib\netcore451\galasoft.mvvmlight.extras.dll" HashGuid="28bb2089-c7a4-73bb-7a72-1ea8b02698b0" />
+    <ReferenceAssembly PathName="c:\projects\touchpointwindows\packages\mvvmlightlibs.5.0.2.0\lib\netcore451\galasoft.mvvmlight.platform.dll" HashGuid="54c1f1ed-b921-337f-8ad6-f2d8c553df06" />
+    <ReferenceAssembly PathName="c:\projects\touchpointwindows\packages\encryption-winrt.1.0.5\lib\netcore451\lightbuzz.encryption.dll" HashGuid="31ec9408-06ae-e1ff-1ceb-820b5256f6df" />
+    <ReferenceAssembly PathName="c:\projects\touchpointwindows\packages\commonservicelocator.1.3\lib\portable-net4+sl5+netcore45+wpa81+wp8\microsoft.practices.servicelocation.dll" HashGuid="89de7f80-26d8-a17c-5ad9-b855f81ea5b2" />
+    <ReferenceAssembly PathName="c:\projects\touchpointwindows\packages\winrtxamltoolkit.windows.1.7.9.0\lib\netcore451\winrtxamltoolkit.dll" HashGuid="8fea1557-a6c7-1033-a29e-4c08e554e74b" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

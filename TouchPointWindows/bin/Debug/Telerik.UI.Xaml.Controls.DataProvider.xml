@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Telerik.UI.Xaml.Controls.DataProvider</name>
+    </assembly>
+    <members>
+        <member name="T:Telerik.UI.Xaml.Controls.DataProvider.ClientCommunicationException">
+            <summary>
+            Exception class for client communication.
+            </summary>
+        </member>
+        <member name="T:Telerik.UI.Xaml.Controls.DataProvider.ContextClientRequestCompletedEventArgs`1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Telerik.UI.Xaml.Controls.DataProvider.DataStorageItemsSource`1">
+            <summary>
+            External items source wrapper that is an entry point to data storage data provider .
+            </summary>
+            <typeparam name="T">The domain entity type.</typeparam>
+        </member>
+        <member name="T:Telerik.UI.Xaml.Controls.DataProvider.DataStorageClientRequestInfo`1">
+            <summary>
+            Class that wraps the information of request to data storage component. Currently it is only an SQL query.
+            </summary>
+            <typeparam name="T">The domain entity type needed for database query.</typeparam>
+        </member>
+        <member name="T:Telerik.UI.Xaml.Controls.DataProvider.ContextRequestType">
+            <summary>
+            Request type is used to build an appropriate SQL query.
+            </summary>
+        </member>
+        <member name="M:Telerik.UI.Xaml.Controls.DataProvider.DataStorageFieldDescriptionProvider.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Telerik.UI.Xaml.Controls.DataProvider.DataStorageFieldDescriptionProvider"/> class.
+            </summary>
+        </member>
+        <member name="M:Telerik.UI.Xaml.Controls.DataProvider.DataStorageFieldDescriptionProvider.GenerateDescriptionsData">
+            <inheritdoc />
+        </member>
+        <member name="M:Telerik.UI.Xaml.Controls.DataProvider.DataStorageFieldDescriptionProvider.GetDescriptions(Telerik.Data.Core.Fields.IFieldInfoExtractor)">
+            <summary>
+            Gets the <see cref="T:Telerik.Data.Core.Fields.IDataFieldInfo"/> for the itemsSource.
+            </summary>
+            <returns>The <see cref="T:System.Collections.Generic.IEnumerable`1"/> with all <see cref="T:Telerik.Data.Core.Fields.IDataFieldInfo"/>s for this provider.</returns>
+        </member>
+        <member name="T:Telerik.UI.Xaml.Controls.DataProvider.DefaultDataContextClient`1">
+            <summary>
+            Implementation of client for data storage component.
+            </summary>
+        </member>
+        <member name="T:Telerik.UI.Xaml.Controls.DataProvider.IDataContextClient`1">
+            <summary>
+            A client interface that will be used for data acquisition from any data context like Data Storage, web services etc.
+            </summary>
+        </member>
+        <member name="M:Telerik.UI.Xaml.Controls.DataProvider.DefaultDataContextClient`1.SendRequestAsync(Telerik.UI.Xaml.Controls.DataProvider.DataStorageClientRequestInfo{`0})">
+            <summary>
+            TBD: asynchronous data acquisition should be synchronized with local data engine.
+            </summary>
+            <param name="requestInfo"></param>
+        </member>
+        <member name="T:Telerik.UI.Xaml.Controls.DataProvider.DataStorageQueryBuilder`1">
+            <summary>
+            Helper class for SQL query building routine according to the current domain entity and applied filters.
+            Built queries are atomic.
+            </summary>
+            <typeparam name="T">The domain entity type.</typeparam>
+        </member>
+        <member name="F:Telerik.UI.Xaml.Controls.DataProvider.DataStorageQueryBuilder`1.initialPKState">
+            <summary>
+            Keeps the (field_name - value) tuple for all Primary keys. Currently is used only for Update queries.
+            </summary>
+        </member>
+        <member name="M:Telerik.UI.Xaml.Controls.DataProvider.DataStorageQueryBuilder`1.BuildUpdateQuery">
+            <summary>
+            Build query in format:
+                UPDATE table_name
+                SET column1 = value1 , column2 = value2 , ...
+                WHERE PK_column = some_value;.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="F:Telerik.UI.Xaml.Controls.DataProvider.DataStorageDataProvider`1.contextClient">
+            <summary>
+            The client that will communicate with Data Storage context.
+            </summary>
+        </member>
+        <member name="F:Telerik.UI.Xaml.Controls.DataProvider.DataStorageDataProvider`1.originalPKValues">
+            <summary>
+            Initial state of PK fields: field_name -> field_value.
+            </summary>
+        </member>
+        <member name="F:Telerik.UI.Xaml.Controls.DataProvider.DataStorageDataProvider`1.itemDataAfterEdit">
+            <summary>
+            The entity values after edit.
+            </summary>
+        </member>
+        <member name="M:Telerik.UI.Xaml.Controls.DataProvider.DataStorageDataProvider`1.CreateFieldDescriptionsProvider">
+            <inheritdoc />
+        </member>
+        <member name="M:Telerik.UI.Xaml.Controls.DataProvider.DataStorageDataProvider`1.RefreshOverride(Telerik.UI.Xaml.Controls.Grid.DataChangeFlags)">
+            <inheritdoc />
+        </member>
+        <member name="M:Telerik.UI.Xaml.Controls.DataProvider.DataStorageDataProvider`1.GenerateAndExecuteDataStorageRequest(Telerik.UI.Xaml.Controls.DataProvider.ContextRequestType)">
+            <summary>
+            Initiate and execute request to Data Storage component using specific request type.
+            </summary>
+            <param name="requestType"></param>
+        </member>
+        <member name="P:Telerik.UI.Xaml.Controls.DataProvider.DataStorageDataProvider`1.FieldDescriptionsReadyForUpdate">
+            <summary>
+            Checks if Field descriptions are available to be updated.
+            </summary>
+        </member>
+    </members>
+</doc>

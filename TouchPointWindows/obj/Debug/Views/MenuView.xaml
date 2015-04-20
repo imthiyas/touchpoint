@@ -1,0 +1,53 @@
+﻿<common:PageBase
+    x:Class="TouchPointWindows.Views.MenuView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TouchPointWindows.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:grid="using:Telerik.UI.Xaml.Controls.Grid"
+    xmlns:primitives="using:Telerik.UI.Xaml.Controls.Grid.Primitives"
+    xmlns:common="using:TouchPointWindows.Common"
+    DataContext="{Binding MenuViewModel, Source={StaticResource Locator}}"
+    x:Name="menuPage"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Margin="25">
+    	<StackPanel Orientation="Vertical">
+            <Button x:Name="backButton" Margin="39,59,39,20" Command="{Binding NavigationHelper.GoBackCommand, ElementName=menuPage}"
+				Style="{StaticResource NavigationBackButtonNormalStyle}"
+				VerticalAlignment="Top"
+				AutomationProperties.Name="Back"
+				AutomationProperties.AutomationId="BackButton"
+				AutomationProperties.ItemType="Navigation Button"/>
+
+            <Button Content="Save" HorizontalAlignment="Left" VerticalAlignment="Stretch" Width="100" Command="{Binding SaveCommand}"/>
+    		<grid:RadDataGrid x:Name="radGrid" UserEditMode="Inline"  AutoGenerateColumns="False" ItemsSource="{Binding MenuModelItems, Mode=TwoWay}" 
+                              MinHeight="500">
+    			<grid:RadDataGrid.GroupDescriptors>
+    				<grid:PropertyGroupDescriptor PropertyName="GroupName" />
+    				<grid:PropertyGroupDescriptor PropertyName="ChildName" />
+    			</grid:RadDataGrid.GroupDescriptors>
+    			<grid:RadDataGrid.Columns>
+    				<grid:DataGridTemplateColumn Header="Image">
+    					<grid:DataGridTemplateColumn.CellContentTemplate>
+    						<DataTemplate>
+    							<StackPanel Orientation="Horizontal">
+    								<Image Source="{Binding ImagePath}" Width="96" Height="60"/>
+    							</StackPanel>
+    						</DataTemplate>
+    					</grid:DataGridTemplateColumn.CellContentTemplate>
+    				</grid:DataGridTemplateColumn>
+                    <grid:DataGridTextColumn PropertyName="Name" Header="Name" CanUserEdit="True" />
+                    <grid:DataGridNumericalColumn PropertyName="Vat" Header="VAT" CellContentFormat="{}{0,0:C2}" CanUserEdit="True" />
+                    <grid:DataGridNumericalColumn PropertyName="Price" Header="Price" CellContentFormat="{}{0,0:C2}"/>
+    				<grid:DataGridTextColumn PropertyName="Description" Header="Description"/>
+    			</grid:RadDataGrid.Columns>
+    		</grid:RadDataGrid>
+    		<Button Content="Save" HorizontalAlignment="Left" VerticalAlignment="Stretch" Width="100" Command="{Binding SaveCommand}"/>
+
+    	</StackPanel>
+
+    </Grid>
+</common:PageBase>
+
